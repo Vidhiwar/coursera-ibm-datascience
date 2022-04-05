@@ -12,7 +12,7 @@ from dash import no_update
 # Create a dash application
 app = dash.Dash(__name__)
 
-# REVIEW1: Clear the layout and do not display exception till callback gets executed
+# Clear the layout and do not display exception till callback gets executed
 app.config.suppress_callback_exceptions = True
 
 # Read the airline data into pandas dataframe
